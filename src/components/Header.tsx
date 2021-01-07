@@ -12,10 +12,10 @@ export const Header = () => {
             <div className="flex-fill" />
 
 
-            <a className="github" href="https://github.com/muclipse/data-at-hand-mobile" target="_blank">
+            <a className="github" href="https://github.com/umdsquare/data-at-hand-mobile" target="_blank">
                 <div>
                     <img src={require('../assets/github.svg')} />
-                    <span>Github</span>
+                    <span>Source Code</span>
                 </div>
             </a>
         </div>
