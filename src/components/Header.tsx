@@ -15,7 +15,7 @@ export const Header = () => {
             <a className="github" href="https://github.com/umdsquare/data-at-hand-mobile" target="_blank">
                 <div>
                     <img src={require('../assets/github.svg')} />
-                    <span>Source Code</span>
+                    <span>Source</span>
                 </div>
             </a>
         </div>

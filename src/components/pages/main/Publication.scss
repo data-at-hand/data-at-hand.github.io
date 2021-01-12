@@ -1,8 +1,16 @@
-a.doi{
+a.link_doi, a.link_detail, a.link_pdf{
     background: #5dbcd8;
     padding: 0 0.5rem;
     border-radius: 0.3rem;
     color: white;
     font-weight: 600;
     margin-left: 0.75rem;
+
+    &.link_doi{
+        background: #c7ce78;
+    }
+
+    &.link_pdf{
+        background: #f97373;
+    }
 }
