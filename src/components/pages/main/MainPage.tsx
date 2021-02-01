@@ -6,6 +6,7 @@ import { SystemInformation } from './SystemInformation';
 import './MainPage.scss';
 
 import loopmp4 from '../../../assets/teaser-loop.mp4';
+import { Section } from 'components/Section';
 
 
 
@@ -51,5 +52,11 @@ export const MainPage = () => {
         <Publication />
         <Team />
         <SystemInformation/>
+
+        <Section title="Acknowledgment" hashId="acknowledgment">
+            <p>
+                This work was in part supported by <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1753452" target="_blank">National Science Foundation award #1753452</a> (CAREER: Advancing Personal Informatics through Semi-Automated and Collaborative Tracking).
+            </p>
+        </Section>
     </>
 }

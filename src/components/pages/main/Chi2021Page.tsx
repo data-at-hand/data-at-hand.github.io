@@ -33,5 +33,11 @@ export const Chi2021Page = () => {
             </table>
         </Section>
         <Team />
+
+        <Section title="Acknowledgment" hashId="acknowledgment">
+            <p>
+                This work was in part supported by <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1753452" target="_blank">National Science Foundation award #1753452</a> (CAREER: Advancing Personal Informatics through Semi-Automated and Collaborative Tracking).
+            </p>
+        </Section>
     </>
 }
