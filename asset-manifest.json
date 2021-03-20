@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.914348d7.chunk.css",
-    "main.js": "/static/js/main.72aabf59.chunk.js",
-    "main.js.map": "/static/js/main.72aabf59.chunk.js.map",
+    "main.css": "/static/css/main.df7b951a.chunk.css",
+    "main.js": "/static/js/main.de716952.chunk.js",
+    "main.js.map": "/static/js/main.de716952.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f6157b90.js",
     "runtime-main.js.map": "/static/js/runtime-main.f6157b90.js.map",
-    "static/js/2.5b03317c.chunk.js": "/static/js/2.5b03317c.chunk.js",
-    "static/js/2.5b03317c.chunk.js.map": "/static/js/2.5b03317c.chunk.js.map",
+    "static/js/2.b56801ab.chunk.js": "/static/js/2.b56801ab.chunk.js",
+    "static/js/2.b56801ab.chunk.js.map": "/static/js/2.b56801ab.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b1292902e23a9bf1714359af664bcfcb.js": "/precache-manifest.b1292902e23a9bf1714359af664bcfcb.js",
+    "precache-manifest.de752335e0768b18d7eec79903560923.js": "/precache-manifest.de752335e0768b18d7eec79903560923.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.914348d7.chunk.css.map": "/static/css/main.914348d7.chunk.css.map",
-    "static/js/2.5b03317c.chunk.js.LICENSE.txt": "/static/js/2.5b03317c.chunk.js.LICENSE.txt",
+    "static/css/main.df7b951a.chunk.css.map": "/static/css/main.df7b951a.chunk.css.map",
+    "static/js/2.b56801ab.chunk.js.LICENSE.txt": "/static/js/2.b56801ab.chunk.js.LICENSE.txt",
     "static/media/arjun_portrait.jpg": "/static/media/arjun_portrait.6c60a7ad.jpg",
     "static/media/author_bongshin.png": "/static/media/author_bongshin.d29b39dc.png",
     "static/media/bugsnag.svg": "/static/media/bugsnag.33cadced.svg",
@@ -24,13 +24,14 @@
     "static/media/react.svg": "/static/media/react.c14a85e1.svg",
     "static/media/reactivex.png": "/static/media/reactivex.9a648323.png",
     "static/media/redux.png": "/static/media/redux.28876f91.png",
+    "static/media/seal.svg": "/static/media/seal.8b5a463b.svg",
     "static/media/teaser-loop.mp4": "/static/media/teaser-loop.5e89d244.mp4",
     "static/media/yhkim_portrait.jpg": "/static/media/yhkim_portrait.cb5d642b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f6157b90.js",
-    "static/js/2.5b03317c.chunk.js",
-    "static/css/main.914348d7.chunk.css",
-    "static/js/main.72aabf59.chunk.js"
+    "static/js/2.b56801ab.chunk.js",
+    "static/css/main.df7b951a.chunk.css",
+    "static/js/main.de716952.chunk.js"
   ]
 }
