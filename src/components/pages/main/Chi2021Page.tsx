@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 export const Chi2021Page = () => {
     return <>
+
         <Section title="Abstract" hashId="">
             <p>
                 Most mobile health apps employ data visualization to help people view their health and activity data, but these apps provide limited support for visual data exploration.
@@ -17,7 +18,13 @@ export const Chi2021Page = () => {
                 Participants successfully adopted multimodal interaction (i.e., speech and touch)
                 for convenient and fluid data exploration.
                 Based on the quantitative and qualitative findings, we discuss design implications and opportunities with multimodal interaction for better supporting visual data exploration on mobile devices.
-        </p>
+            </p>
+            <div className="award">
+            <div className="award-badge">
+                <img src={require("../../../assets/seal.svg")} />
+                <span>Best Paper Honorable Mention Award</span>
+            </div>
+        </div>
         </Section>
         <Video />
         <Section title="Supplementary Material" hashId="supplementary">

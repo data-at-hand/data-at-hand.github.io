@@ -13,6 +13,7 @@ const papers = [
             title: "Supplementary Material",
             url: "/chi2021"
         },
+        award: "Best Paper Honorable Mention Award",
         pdf: 'https://data-at-hand.github.io/papers/data-at-hand-chi2021-preprint.pdf'
     }
 ]
@@ -34,12 +35,19 @@ export const Publication = () => {
 const Paper = (props: {
     authors: string,
     title: string,
+    award?: string | null,
     description: string,
     pdf?: string | null,
     doi?: string | null,
     link?: {title: string, url: string} | null
 }) => {
     return <div className="publication-info paragraph">
+        {
+            props.award != null ? <div className="award-badge">
+                <img src={require("../../../assets/seal.svg")}/>
+                <span>{props.award}</span>
+            </div> : null
+        }
         <div className="authors">{props.authors}</div>
         <div className="title"><b>{props.title}</b></div>
         <div>

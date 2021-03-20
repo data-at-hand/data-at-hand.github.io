@@ -150,3 +150,13 @@ p,
 
 
 }
+
+.award-badge{
+  color: #FF6386;
+  display: flex;
+  align-items: center;
+  img{
+    width: 1.8rem;
+    margin-left: -0.3rem;  
+  }
+}

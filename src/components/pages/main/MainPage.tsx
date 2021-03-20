@@ -28,8 +28,8 @@ export const MainPage = () => {
                 To overcome the smartphones’ limitations such as small screen size and lack of precise pointing input, Data@Hand leverages the synergy of speech and touch; speech-based interaction takes little screen space and natural language is flexible to cover different ways of specifying dates and their ranges (e.g., “<i>October 7th</i>”, “<i>Last Sunday</i>”, “<i>This month</i>”). Currently, Data@Hand supports displaying the <b>Fitbit</b> data (e.g., step count, heart rate, sleep, and weight) for navigation and temporal comparisons tasks.
                 </p>
 
-                        <div className="description-keywords-container">
-                            <div className="keyword-title">
+                        <div className="description-metadata-container">
+                            <div className="metadata-title">
                                 Keywords
                             </div>
                             <div className="keyword-list">
@@ -42,6 +42,19 @@ export const MainPage = () => {
 
                         </div>
 
+                        <div className="description-metadata-container">
+                            <div className="metadata-title">
+                                Awards
+                            </div>
+
+                            <div className="award-list">
+                                <div className="award-badge">
+                                    <img src={require("../../../assets/seal.svg")} />
+                                    <span><b>Best Paper Honorable Mention Award (ACM CHI 2021)</b></span>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
@@ -51,7 +64,7 @@ export const MainPage = () => {
         <Video />
         <Publication />
         <Team />
-        <SystemInformation/>
+        <SystemInformation />
 
         <Section title="Acknowledgment" hashId="acknowledgment">
             <p>
